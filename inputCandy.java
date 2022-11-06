@@ -17,10 +17,10 @@ public class inputCandy {
 		boolean hasName = false;
 		boolean trade = false;
 		
-		System.out.println("How many default users do you want to add? ");
+		System.out.println("How many default users do you want to add? Use an Int between 1 and 20 please. ");
 		int numUsers = Integer.parseInt(keyboard.nextLine());
 		
-		System.out.println("How many pieces of candy did each user get? ");
+		System.out.println("How many pieces of candy did each user get? Use an Int please. ");
 		int numCandy = Integer.parseInt(keyboard.nextLine());
 		
 		while(numUsers > 0) {
@@ -148,7 +148,7 @@ public class inputCandy {
 		//Scanner nameInputHelp = new Scanner(System.in);
 		String name = keyboard.nextLine();
 		
-		System.out.println("How many pieces of candy did you get for Halloween?");
+		System.out.println("How many pieces of candy did you get for Halloween? Use an Int please. ");
 		int num = Integer.parseInt(keyboard.nextLine());
 		
 		String[] allCandy = new String[num];
